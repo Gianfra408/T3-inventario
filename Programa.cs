@@ -36,6 +36,8 @@ namespace inventario
                     case 1:
                         if (cantidadProductos < MAX_PRODUCTOS)
                         {
+                            Console.WriteLine("\nRegistro de producto");
+
                             Console.Write("Ingrese codigo del producto: ");
                             codigos[cantidadProductos] = Console.ReadLine();
 
@@ -78,10 +80,11 @@ namespace inventario
 
                             cantidadProductos++;
                             Console.WriteLine("Producto registrado correctamente");
+                            Console.WriteLine("Total de productos registrados: " + cantidadProductos);
                         }
                         else
                         {
-                            Console.WriteLine("No se pueden registrar mas productos");
+                            Console.WriteLine("No se pueden registrar mas productos. Capacidad maxima alcanzada");
                         }
                         break;
                     case 2:
