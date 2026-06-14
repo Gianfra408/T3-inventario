@@ -39,8 +39,22 @@ namespace inventario
                             Console.Write("Ingrese codigo del producto: ");
                             codigos[cantidadProductos] = Console.ReadLine();
 
+                            while (codigos[cantidadProductos] == "")
+                            {
+                                Console.WriteLine("El codigo no puede estar vacio");
+                                Console.Write("Ingrese codigo del producto: ");
+                                codigos[cantidadProductos] = Console.ReadLine();
+                            }
+
                             Console.Write("Ingrese nombre del producto: ");
                             nombres[cantidadProductos] = Console.ReadLine();
+
+                            while (nombres[cantidadProductos] == "")
+                            {
+                                Console.WriteLine("El nombre no puede estar vacio");
+                                Console.Write("Ingrese nombre del producto: ");
+                                nombres[cantidadProductos] = Console.ReadLine();
+                            }
 
                             Console.Write("Ingrese precio del producto: ");
                             precios[cantidadProductos] = double.Parse(Console.ReadLine());
