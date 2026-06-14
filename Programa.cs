@@ -34,7 +34,27 @@ namespace inventario
                 switch (opcion)
                 {
                     case 1:
-                        Console.WriteLine("Registro de productos en desarrollo");
+                        if (cantidadProductos < MAX_PRODUCTOS)
+                        {
+                            Console.Write("Ingrese codigo del producto: ");
+                            codigos[cantidadProductos] = Console.ReadLine();
+
+                            Console.Write("Ingrese nombre del producto: ");
+                            nombres[cantidadProductos] = Console.ReadLine();
+
+                            Console.Write("Ingrese precio del producto: ");
+                            precios[cantidadProductos] = double.Parse(Console.ReadLine());
+
+                            Console.Write("Ingrese cantidad del producto: ");
+                            cantidades[cantidadProductos] = int.Parse(Console.ReadLine());
+
+                            cantidadProductos++;
+                            Console.WriteLine("Producto registrado correctamente");
+                        }
+                        else
+                        {
+                            Console.WriteLine("No se pueden registrar mas productos");
+                        }
                         break;
                     case 2:
                         Console.WriteLine("Listado de productos en desarrollo");
