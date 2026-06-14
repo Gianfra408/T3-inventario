@@ -59,8 +59,22 @@ namespace inventario
                             Console.Write("Ingrese precio del producto: ");
                             precios[cantidadProductos] = double.Parse(Console.ReadLine());
 
+                            while (precios[cantidadProductos] < 0)
+                            {
+                                Console.WriteLine("El precio no puede ser negativo");
+                                Console.Write("Ingrese precio del producto: ");
+                                precios[cantidadProductos] = double.Parse(Console.ReadLine());
+                            }
+
                             Console.Write("Ingrese cantidad del producto: ");
                             cantidades[cantidadProductos] = int.Parse(Console.ReadLine());
+
+                            while (cantidades[cantidadProductos] < 0)
+                            {
+                                Console.WriteLine("La cantidad no puede ser negativa");
+                                Console.Write("Ingrese cantidad del producto: ");
+                                cantidades[cantidadProductos] = int.Parse(Console.ReadLine());
+                            }
 
                             cantidadProductos++;
                             Console.WriteLine("Producto registrado correctamente");
