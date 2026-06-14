@@ -1,0 +1,14 @@
+C:\FUNDAMENTO DE ALGORITMOS_HOME\T3\inventario\bin\Debug\net9.0\inventario.exe
+C:\FUNDAMENTO DE ALGORITMOS_HOME\T3\inventario\bin\Debug\net9.0\inventario.deps.json
+C:\FUNDAMENTO DE ALGORITMOS_HOME\T3\inventario\bin\Debug\net9.0\inventario.runtimeconfig.json
+C:\FUNDAMENTO DE ALGORITMOS_HOME\T3\inventario\bin\Debug\net9.0\inventario.dll
+C:\FUNDAMENTO DE ALGORITMOS_HOME\T3\inventario\bin\Debug\net9.0\inventario.pdb
+C:\FUNDAMENTO DE ALGORITMOS_HOME\T3\inventario\obj\Debug\net9.0\inventario.GeneratedMSBuildEditorConfig.editorconfig
+C:\FUNDAMENTO DE ALGORITMOS_HOME\T3\inventario\obj\Debug\net9.0\inventario.AssemblyInfoInputs.cache
+C:\FUNDAMENTO DE ALGORITMOS_HOME\T3\inventario\obj\Debug\net9.0\inventario.AssemblyInfo.cs
+C:\FUNDAMENTO DE ALGORITMOS_HOME\T3\inventario\obj\Debug\net9.0\inventario.csproj.CoreCompileInputs.cache
+C:\FUNDAMENTO DE ALGORITMOS_HOME\T3\inventario\obj\Debug\net9.0\inventario.dll
+C:\FUNDAMENTO DE ALGORITMOS_HOME\T3\inventario\obj\Debug\net9.0\refint\inventario.dll
+C:\FUNDAMENTO DE ALGORITMOS_HOME\T3\inventario\obj\Debug\net9.0\inventario.pdb
+C:\FUNDAMENTO DE ALGORITMOS_HOME\T3\inventario\obj\Debug\net9.0\inventario.genruntimeconfig.cache
+C:\FUNDAMENTO DE ALGORITMOS_HOME\T3\inventario\obj\Debug\net9.0\ref\inventario.dll
