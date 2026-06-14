@@ -57,7 +57,24 @@ namespace inventario
                         }
                         break;
                     case 2:
-                        Console.WriteLine("Listado de productos en desarrollo");
+                        if (cantidadProductos == 0)
+                        {
+                            Console.WriteLine("No hay productos registrados");
+                        }
+                        else
+                        {
+                            Console.WriteLine("\nListado de productos:");
+
+                            for (int i = 0; i < cantidadProductos; i++)
+                            {
+                                Console.WriteLine("Producto " + (i + 1));
+                                Console.WriteLine("Codigo: " + codigos[i]);
+                                Console.WriteLine("Nombre: " + nombres[i]);
+                                Console.WriteLine("Precio: " + precios[i]);
+                                Console.WriteLine("Cantidad: " + cantidades[i]);
+                                Console.WriteLine("------------------------");
+                            }
+                        }
                         break;
                     case 3:
                     case 4:
