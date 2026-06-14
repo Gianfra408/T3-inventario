@@ -12,3 +12,4 @@ C:\FUNDAMENTO DE ALGORITMOS_HOME\T3\inventario\obj\Debug\net9.0\refint\inventari
 C:\FUNDAMENTO DE ALGORITMOS_HOME\T3\inventario\obj\Debug\net9.0\inventario.pdb
 C:\FUNDAMENTO DE ALGORITMOS_HOME\T3\inventario\obj\Debug\net9.0\inventario.genruntimeconfig.cache
 C:\FUNDAMENTO DE ALGORITMOS_HOME\T3\inventario\obj\Debug\net9.0\ref\inventario.dll
+C:\FUNDAMENTO DE ALGORITMOS_HOME\T3\inventario\obj\Debug\net9.0\inventario.sourcelink.json
